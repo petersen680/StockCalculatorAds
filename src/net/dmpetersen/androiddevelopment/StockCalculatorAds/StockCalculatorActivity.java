@@ -243,9 +243,7 @@ protected void showHelp(){
 
       button.setOnClickListener(new OnClickListener() {
 
-      @Override
-
-          public void onClick(View v) {
+      public void onClick(View v) {
 
               dialog.dismiss();
 
