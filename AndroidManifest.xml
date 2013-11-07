@@ -24,7 +24,7 @@
 		
 
     <application android:icon="@drawable/dollars" android:label="@string/app_name">
-        <activity android:name=".StockCalculatorActivityAds"
+        <activity android:name=".StockCalculatorSCActivityAds"
                   android:label="@string/app_name" android:screenOrientation="portrait">>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,16 +33,16 @@
         </activity>
         
         
-		<activity android:label="@string/results_page" android:name="net.dmpetersen.androiddevelopment.StockCalculatorAds.SCResultActivityAds" android:screenOrientation="portrait">
+		<activity android:label="@string/results_page" android:name="net.dmpetersen.androiddevelopment.StockCalculatorAds.SCResultSCActivityAds" android:screenOrientation="portrait">
 			- <intent-filter> 
-		<action android:name="net.dmpetersen.androiddevelopment.StockCalculatorAds.SCRESULTACTIVITYADS" /> 
+		<action android:name="net.dmpetersen.androiddevelopment.StockCalculatorAds.SCRESULTSCACTIVITYADS" /> 
 		<category android:name="android.intent.category.DEFAULT" /> 
 		</intent-filter> 
 		</activity> 
 		
-		<activity android:label="@string/error_page" android:name="net.dmpetersen.androiddevelopment.StockCalculatorAds.SCErrorActivityAds" android:screenOrientation="portrait">
+		<activity android:label="@string/error_page" android:name="net.dmpetersen.androiddevelopment.StockCalculatorAds.SCErrorSCActivityAds" android:screenOrientation="portrait">
 			- <intent-filter> 
-		<action android:name="net.dmpetersen.androiddevelopment.StockCalculatorAds.SCERRORACTIVITYADS" /> 
+		<action android:name="net.dmpetersen.androiddevelopment.StockCalculatorAds.SCERRORSCACTIVITYADS" /> 
 		<category android:name="android.intent.category.DEFAULT" /> 
 		</intent-filter> 
 		</activity> 

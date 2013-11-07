@@ -6,7 +6,7 @@ import android.os.Bundle;
 //import com.google.ads.*;
 
 
-public class SCResultActivityAds extends SCResultActivity{
+public class SCResultSCActivityAds extends SCResultSCActivity{
 
 	//private AdView adView;
 	

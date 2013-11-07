@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 
-public class SCErrorActivity extends Activity 
+public class SCErrorSCActivity extends Activity 
 {
 
 	

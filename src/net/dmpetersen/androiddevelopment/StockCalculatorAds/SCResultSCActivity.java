@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.EditText;
 
-public class SCResultActivity extends Activity {
+public class SCResultSCActivity extends Activity {
 
 
 	

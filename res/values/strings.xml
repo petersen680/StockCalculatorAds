@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   
-    <string name="app_name">Stock Trade Calculator</string>
+    <string name="app_name">Stock Trade Calculator (Lite)</string>
     <string name="results_page">Stock Calculator Results</string>
     <string name="error_page">Stock Calculator Error</string>
     <string name="data2">Error:</string>
