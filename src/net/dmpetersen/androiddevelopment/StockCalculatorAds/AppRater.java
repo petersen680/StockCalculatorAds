@@ -86,7 +86,7 @@ public class AppRater {
 	        b1.setText("Buy " + APP_TITLE);
 	        b1.setOnClickListener(new OnClickListener() {
 	            public void onClick(View v) {
-	                mContext.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://apps.opera.com/en_us/stock_trade_calc_quotes_lite.html")));
+	                mContext.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=net.dmpetersen.androiddevelopment.StockCalculator")));
 	                dialog.dismiss();
 	            }
 	        });        

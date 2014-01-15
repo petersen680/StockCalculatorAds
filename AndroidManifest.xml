@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="net.dmpetersen.androiddevelopment.StockCalculatorAds"
-      android:versionCode="6"
-      android:versionName="1.5"
+      android:versionCode="9"
+      android:versionName="1.8"
       android:targetSdkVersion="13">
       
     <uses-sdk android:minSdkVersion="8" />
@@ -50,9 +50,9 @@
 		<!-- <activity android:name="com.google.ads.AdActivity"             
 		     android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>-->
 		
-		<activity android:name="com.tapfortap.TapForTapActivity"/>
+		<!--  <activity android:name="com.tapfortap.TapForTapActivity"/>-->
 		
-		
+		<activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
 		
     </application>
     

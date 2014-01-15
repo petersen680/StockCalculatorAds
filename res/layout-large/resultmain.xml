@@ -8,7 +8,7 @@ android:layout_width="fill_parent"
     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
 	>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout 
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -96,12 +96,24 @@ android:layout_width="fill_parent"
     
     
     
-    <com.tapfortap.AdView 
+    <com.google.ads.AdView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:layout_marginBottom="10dp" 
+        android:layout_marginTop="10dp" 
+        android:id="@+id/adView" 
+        ads:adUnitId="a15261d0931d619" 
+        ads:adSize="BANNER" 
+        ads:loadAdOnCreate="true"/>
+    
+    
+   <!--   <com.tapfortap.AdView 
     android:id="@+id/ad_view"
     android:layout_height="50dip"
     android:layout_width="320dip"
     android:layout_gravity="bottom"
   />
+    -->
     
    
     <!-- <com.google.ads.AdView android:id="@+id/adView" 

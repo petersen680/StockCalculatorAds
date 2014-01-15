@@ -1,6 +1,5 @@
 package net.dmpetersen.androiddevelopment.StockCalculatorAds;
 
-import com.tapfortap.TapForTap;
 
 import android.os.Bundle;
 //import com.google.ads.*;
@@ -19,7 +18,7 @@ public class SCErrorSCActivityAds extends SCErrorSCActivity{
         super.onCreate(savedInstanceState);
         
         
-        TapForTap.initialize(this, "50945fb4e31e9b80704a8ae774536ca0");
+        //TapForTap.initialize(this, "50945fb4e31e9b80704a8ae774536ca0");
        
             
         
